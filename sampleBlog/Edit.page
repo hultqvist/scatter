@@ -1,0 +1,23 @@
+Title: Edit that page
+LinkTitle: Edit
+
+<div id="editor">
+	<div>
+		<input type="file" id="file" size="0">
+		<input id="filename" name="filename" size="15">
+		<a href="#" id="link">saved here</a>
+	</div>
+	<div id="wmd-button-bar"></div>
+	<div class="markdown-frame">
+		<textarea class="wmd-input" id="wmd-input" name="wmd-input"></textarea>
+	</div>
+	</form>
+</div>
+<div id="preview">
+	<div id="wmd-preview"></div>
+</div>
+
+<script src="pagedown/Markdown.Converter.js"></script>
+<script src="pagedown/Markdown.Sanitizer.js"></script>
+<script src="pagedown/Markdown.Editor.js"></script>
+<script src="edit.js"></script>

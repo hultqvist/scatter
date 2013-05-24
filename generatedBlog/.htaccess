@@ -1,0 +1,9 @@
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ /index.php/$1 [QSA,L]
+
+Header unset X-AspNet-Version
+Header unset X-Powered-By
+Header unset ETag
+FileETag MTime Size

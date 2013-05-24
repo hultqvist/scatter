@@ -1,0 +1,8 @@
+email:	yourmail@example.com
+url:		http://website-url/with/full/path/
+path:	./
+title:	Sample blog title
+data_path:		./
+static_path:		static/
+template_path:	template/
+web_path:	../generatedBlog/

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Sample blog title</title>
+	<link href="http://website-url/with/full/path/" />
+	<link rel="self" href="http://website-url/with/full/path/feed/" />
+	<updated>2013-05-24T20:45:08Z</updated>
+	<id>http://website-url/with/full/path/</id>
+	<entry>
+		<title>README</title>
+		<author><name>your name</name></author>
+		<link href="http://website-url/with/full/path/2013/05/Readme/"/>
+		<id>http://website-url/with/full/path/2013/05/Readme/</id>
+		<updated>2013-05-24T20:54:51Z</updated>
+		<summary type="html">
+			&lt;h1&gt;Scatter&lt;/h1&gt;
+
+&lt;p&gt;Scatter is a static file generator for your blog.&lt;/p&gt;
+		</summary>
+		<content type="html" xml:lang="en" xml:base="http://website-url/with/full/path/2013/05/Readme/">
+			&lt;h1&gt;Scatter&lt;/h1&gt;
+
+&lt;p&gt;Scatter is a static file generator for your blog.&lt;/p&gt;
+
+&lt;p&gt;Features include&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Markdown syntax for pages and blog posts using &lt;a href=&quot;https://code.google.com/p/markdownsharp/&quot;&gt;MarkdownSharp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Minify css and js using the &lt;a href=&quot;http://yuicompressor.codeplex.com/&quot;&gt;YUI compressor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Generate precompressed versions for use in &lt;a href=&quot;http://wiki.nginx.org/HttpGzipStaticModule&quot;&gt;nginx gzip-static&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://silentorbit.com/notes/Edit/&quot;&gt;Web based editor&lt;/a&gt; for local use, using &lt;a href=&quot;https://code.google.com/p/pagedown/&quot;&gt;pagedown for live preview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Compile&lt;/h1&gt;
+
+&lt;p&gt;From the command line run &lt;code&gt;build.sh&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can also open the &lt;code&gt;Scatter.sln&lt;/code&gt; in Visual Studio or MonoDevelop and build it from there.&lt;/p&gt;
+
+&lt;h1&gt;Sample blog&lt;/h1&gt;
+
+&lt;p&gt;A sample blog is available in the &lt;code&gt;sampleBlog&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;p&gt;Files ending with &lt;code&gt;.page&lt;/code&gt; become pages.&lt;br
+Files ending with &lt;code&gt;.post&lt;/code&gt; become blog post and will be added to the feed according to its date.&lt;/p&gt;
+
+&lt;p&gt;Directories with the same base name as page or post files contain additional files such as images or other downloadable content.&lt;/p&gt;
+
+&lt;h1&gt;Source code, issues and contributions&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hultqvist/scatter&quot;&gt;https://github.com/hultqvist/scatter&lt;/a&gt;&lt;/p&gt;
+		</content>
+	</entry>
+
+</feed>

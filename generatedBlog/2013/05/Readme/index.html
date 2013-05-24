@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>README</title>
+	<link rel="stylesheet" href="./style.css" type="text/css" />
+	<link rel="stylesheet" href="../style.css" type="text/css" />
+	<link rel="alternate" type="application/atom+xml" title="Subscribe to new posts" href="./feed/" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+</head>
+<body>
+<header>
+	<div><a href="./">Sample blog</a></div>
+	<nav>
+		<ul>
+			<li><a href="./">News</a></li><li><a href="./About/" title="About me">About</a></li><li><a href="./Edit/" title="Edit that page">Edit</a></li>
+		</ul>
+	</nav>
+</header>
+<article>
+	<header>
+		<h1>README</h1>
+		<div class="meta"><time datetime="2013-05-23T22:00:00Z">Fri 24 May 2013</time></div>
+	</header>
+	<section>
+		<h1>Scatter</h1>
+
+<p>Scatter is a static file generator for your blog.</p>
+
+<p>Features include</p>
+
+<ul>
+<li>Markdown syntax for pages and blog posts using <a href="https://code.google.com/p/markdownsharp/">MarkdownSharp</a></li>
+<li>Minify css and js using the <a href="http://yuicompressor.codeplex.com/">YUI compressor</a></li>
+<li>Generate precompressed versions for use in <a href="http://wiki.nginx.org/HttpGzipStaticModule">nginx gzip-static</a>.</li>
+<li><a href="http://silentorbit.com/notes/Edit/">Web based editor</a> for local use, using <a href="https://code.google.com/p/pagedown/">pagedown for live preview</a></li>
+</ul>
+
+<h1>Compile</h1>
+
+<p>From the command line run <code>build.sh</code>.</p>
+
+<p>You can also open the <code>Scatter.sln</code> in Visual Studio or MonoDevelop and build it from there.</p>
+
+<h1>Sample blog</h1>
+
+<p>A sample blog is available in the <code>sampleBlog</code> directory.</p>
+
+<p>Files ending with <code>.page</code> become pages.<br
+Files ending with <code>.post</code> become blog post and will be added to the feed according to its date.</p>
+
+<p>Directories with the same base name as page or post files contain additional files such as images or other downloadable content.</p>
+
+<h1>Source code, issues and contributions</h1>
+
+<p><a href="https://github.com/hultqvist/scatter">https://github.com/hultqvist/scatter</a></p>
+
+	</section>
+
+	<div class="spacer">
+		<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src=".//cc.png" /></a>
+		<br/><br/>
+		<div class="g-plusone"></div>
+	</div>
+	
+	<section>
+		<div id="disqus_thread"></div>
+	</section>
+</article>
+
+</body>
+</html>

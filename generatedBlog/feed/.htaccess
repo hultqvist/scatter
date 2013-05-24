@@ -1,0 +1,3 @@
+DirectoryIndex index.atom
+ForceType application/atom+xml
+AddType application/atom+xml .atom

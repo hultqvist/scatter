@@ -1,0 +1,13 @@
+	<entry>
+		<title><:title:></title>
+		<author><name><:author:></name></author>
+		<link href="<:url:>"/>
+		<id><:url:></id>
+		<updated><:updated:></updated>
+		<summary type="html">
+			<:excerpt:>
+		</summary>
+		<content type="html" xml:lang="en" xml:base="<:url:>">
+			<:content:>
+		</content>
+	</entry>
